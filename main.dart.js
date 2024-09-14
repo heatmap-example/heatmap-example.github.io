@@ -74042,7 +74042,7 @@ A.zk.prototype={
 a14(){this.ap(new A.a9Z(this))},
 pc(a){var s=null,r=A.jc(a,s,s,s,s,s,s),q=J.dK(this.e.h(0,a))
 return A.pC(A.b([r,B.k_,A.h2(A.agA(new A.q1(new A.bV(q,B.et,B.aQ),$.ag()),B.CF,new A.a9W(this,a)),s,60)],t.E),B.bj,B.bY,B.cr)},
-WD(){return A.pC(A.b([B.Px,B.k_,A.h2(A.agA(new A.q1(new A.bV("1.2",B.et,B.aQ),$.ag()),B.CG,new A.a9Y(this)),null,60)],t.E),B.bj,B.bY,B.cr)},
+WD(){return A.pC(A.b([B.Px,B.k_,A.h2(A.agA(new A.q1(new A.bV("1.3",B.et,B.aQ),$.ag()),B.CG,new A.a9Y(this)),null,60)],t.E),B.bj,B.bY,B.cr)},
 Wr(){return A.pC(A.b([B.Pw,B.k_,A.h2(A.agA(new A.q1(new A.bV("5",B.et,B.aQ),$.ag()),B.CH,new A.a9X(this)),null,60)],t.E),B.bj,B.bY,B.cr)},
 N(a){var s,r=this,q=null,p=A.a3(a).ax,o=p.y2
 p=o==null?p.c:o
@@ -74069,15 +74069,15 @@ $2(a,b){return B.c.b5(b.b,a.b)},
 $S:432}
 A.a9Y.prototype={
 $1(a){var s=this.a,r=A.G7(a)
-if(r==null)r=1.2
+if(r==null)r=1.3
 s.r=Math.max(Math.min(r,1.5),0.5)
 s=s.f
 s.sm(A.eQ(s.a,!0,t.Rf))},
 $S:37}
 A.a9X.prototype={
 $1(a){var s=this.a,r=A.G7(a)
-if(r==null)r=2
-s.w=Math.max(Math.min(r,10),4)
+if(r==null)r=4
+s.w=Math.max(Math.min(r,18),4)
 s=s.f
 s.sm(A.eQ(s.a,!0,t.Rf))},
 $S:37}
@@ -77855,7 +77855,7 @@ B.aw=A.b(s([]),t.oU)
 B.CE=new A.iJ("\ufffc",null,null,!0,!0,B.aw)
 B.CF=new A.mg(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.CG=new A.mg(null,null,null,null,null,null,null,null,null,null,"0.5~1.5",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.CH=new A.mg(null,null,null,null,null,null,null,null,null,null,"4~10",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.CH=new A.mg(null,null,null,null,null,null,null,null,null,null,"4~18",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.CJ=new A.hJ(0.0825,0.2075,B.av)
 B.ml=new A.hJ(0.5,1,B.cc)
 B.CK=new A.hJ(0,0.1,B.av)
